@@ -385,10 +385,11 @@ footer {
     margin-top: 0;
   }
 }
-@media (min-width: 637px) and (max-width: 1023.9px) {
+@media (max-width: 637px) {
   body {
-    padding: 2.8% 2%;
+    padding: 10px;
   }
+
   .section__main {
     flex-direction: column;
     justify-content: space-evenly;
@@ -402,13 +403,7 @@ footer {
   }
 
   .section__line {
-    width: 200px;
-    padding: 0;
-  }
-  .project__Links > a {
-    padding: 10px;
-    font-size: 14px;
-    line-height: 19.94px;
+    padding: 20px;
   }
 }
 
